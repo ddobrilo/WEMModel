@@ -16,5 +16,5 @@ Software components of the system are:
 2.	Wireshark Network Analyzer tool installed on the sam laptop.
 
 !(../WEMModel/images/WEMFigure_01.png)
-![BLA](../images/WEMFigure_01.png)
+![BLA](images/WEMFigure_01.png)
 
