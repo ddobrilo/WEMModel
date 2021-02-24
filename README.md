@@ -18,3 +18,11 @@ Software components of the system are:
 ![Figure1](images/WEMFigure_01.png)
 Figure 1. Deployment and connectivity of testing platform components
 
+The platfrom is tested with 4 scenarios
+
+1.	4 sensor nodes, data send interval: 5 sec - 0.62 pckts./sec server load
+2.	4 sensor nodes, data send interval: 200 msec - 11.82 pckts./sec server load
+3.	4 sensor nodes, data send interval: no delay - 51.10 pckts./sec server load
+4.	10 sensor nodes, data send interval: no delay - 174.11 pckts./sec server load
+    WEMModel_4th.Scenario.MQTTLoad_10nodes.zip - zipped Wireshark pcapng file
+    WEMModel_4th.Scenario.MQTTLoad_10nodesCSV.zip - zipped Wireshark exported CSV data for analyses
