@@ -11,5 +11,10 @@ The testing platform is designed as follows:
 2.	Laptop as a system hosting computer with the following components: CPU Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz, 4 GB RAM, DDR3 450 GD SATA HDD, internal WLAN adapter (optionally with TP-Link 722N external USB WLAN adapter), and
 3.	Wireless Access Point / router
 
+Software components of the system are: 
+1.	Windows 10, Mosquitto broker, Python script for subscription (irrelevant for the testing), screen display and write to SQLite database (irrelevant for the testing), in-stalled on the laptop described above.
+2.	Wireshark Network Analyzer tool installed on the sam laptop.
+
+
 
 
