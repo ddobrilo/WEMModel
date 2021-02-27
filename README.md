@@ -23,9 +23,13 @@ The platfrom is tested with 4 scenarios
 1.	4 sensor nodes, data send interval: 5 sec - 0.62 pckts./sec server load
 2.	4 sensor nodes, data send interval: 200 msec - 11.82 pckts./sec server load
 3.	4 sensor nodes, data send interval: no delay - 51.10 pckts./sec server load
+	- WEMModel_3rd.Scenario.zip - zipped Wireshark pcapng file and exported CSV data for analyses (available for download)
 4.	10 sensor nodes, data send interval: no delay - 174.11 pckts./sec server load
-    - WEMModel_4th.Scenario.MQTTLoad_10nodes.zip - zipped Wireshark pcapng file (available for download)
-    - WEMModel_4th.Scenario.MQTTLoad_10nodesCSV.zip - zipped Wireshark exported CSV data for analyses (available for download)
+    - WEMModel_4th.Scenario.zip - zipped Wireshark pcapng file and exported CSV data for analyses (available for download)
+
+![Figure1](images/WEMFigure_03.png)
+Figure: Deployment of sensors in simulation
+
 
 I you use this data for the research please cite it as:
 
