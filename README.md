@@ -1,7 +1,11 @@
 # WEMModel
 Model for Working Environment Monitoring in Smart Manufacturing
 
-The WEMModel is developed as a proposal of the model for working environment monitoring in smart manufacturing system based on wireless sensor technologies and MQTT protocol and the design of a testing platform. The testing platform can be used for model validation, prototype application development, and student teaching in engineering education process.
+The WEMModel is developed as a proposal of the model for working environment monitoring in smart manufacturing system based on wireless sensor technologies and MQTT protocol and the design of a testing platform. 
+
+## Simulation of WEMModel performance with the testing platform
+
+The testing platform can be used for model validation, prototype application development, and student teaching in engineering education process.
 
 The testing platform is designed as follows:
 1.	Sensor nodes are based on Arduino/Genuino UNO Rev3 clones with integrated ESP8266 module. Total of 10 sensor nodes is developed and used in scenarios. The sensor nodes are presented in Figure 6 and have the following configuration: 
@@ -27,12 +31,15 @@ The platfrom is tested with 4 scenarios
 4.	10 sensor nodes, data send interval: no delay - 174.11 pckts./sec server load
     - WEMModel_4th.Scenario.zip - zipped Wireshark pcapng file and exported CSV data for analyses (available for download)
 
+## Simulation of Data Analyses module
+
+The example of Data Analyses module is presented her. This module assumes the usage of sensor nodes with integrated dust sensor. Analysis of the data collected by the sensors was done on data related to dust particle distribution and numerous harmful gases, so in the real system it is a mixture of harmful substances. Of course, dust is not the only type of pollution, but the presence of dust is one of the key parameters of the environment considered here. Bearing in mind that we were not able to deploy and use the sensors in a real environment for a long time, we used a simulation, with the aim of proving the validity of the concept.
+
 The 'train.7z' file contains the images used for the Convolutional Neural Network (CNN) training. Images are classified into four classes (folders): 'both', 'none', 'top-left' and 'bottom-right'. The 'test.7z' file contains the images used to test the trained CNN.
 
 The images are 100 by 50 pixels, 75 dpi, and were created using bilinear interpolation
 ![Figure2](images/WEMFigure_03.jpg)
 Figure: Deployment of sensors in simulation
-
 
 I you use this data for the research please cite it as:
 
