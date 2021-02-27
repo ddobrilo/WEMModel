@@ -16,7 +16,7 @@ Software components of the system are:
 2.	Wireshark Network Analyzer tool installed on the sam laptop.
 
 ![Figure1](images/WEMFigure_07.png)
-Figure 1. Deployment and connectivity of testing platform components
+Figure: Deployment and connectivity of testing platform components
 
 The platfrom is tested with 4 scenarios
 
