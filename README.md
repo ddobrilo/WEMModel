@@ -41,6 +41,8 @@ The images are 100 by 50 pixels, 75 dpi, and were created using bilinear interpo
 ![Figure2](images/WEMFigure_03.jpg)
 Figure: Deployment of sensors in simulation
 
+## Citation
+
 I you use this data for the research please cite it as:
 
 Dalibor Dobrilovic, Vladimir Brtka, Zeljko Stojanov, Goran Jausevac, Dragan Perakovic, and Gordana Jotanovic, 2021, WEMModel dataset, https://github.com/ddobrilo/WEMModel
