@@ -27,7 +27,10 @@ The platfrom is tested with 4 scenarios
 4.	10 sensor nodes, data send interval: no delay - 174.11 pckts./sec server load
     - WEMModel_4th.Scenario.zip - zipped Wireshark pcapng file and exported CSV data for analyses (available for download)
 
-![Figure1](images/WEMFigure_03.png)
+The 'train.7z' file contains the images used for the Convolutional Neural Network (CNN) training. Images are classified into four classes (folders): 'both', 'none', 'top-left' and 'bottom-right'. The 'test.7z' file contains the images used to test the trained CNN.
+
+The images are 100 by 50 pixels, 75 dpi, and were created using bilinear interpolation
+![Figure2](images/WEMFigure_03.jpg)
 Figure: Deployment of sensors in simulation
 
 
