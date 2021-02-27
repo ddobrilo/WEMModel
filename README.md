@@ -15,7 +15,7 @@ Software components of the system are:
 1.	Windows 10, Mosquitto broker, Python script for subscription (irrelevant for the testing), screen display and write to SQLite database (irrelevant for the testing), in-stalled on the laptop described above.
 2.	Wireshark Network Analyzer tool installed on the sam laptop.
 
-![Figure1](images/WEMFigure_01.png)
+![Figure1](images/WEMFigure_07.png)
 Figure 1. Deployment and connectivity of testing platform components
 
 The platfrom is tested with 4 scenarios
